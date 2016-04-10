@@ -1,0 +1,105 @@
+<ion-view title="Dresses" id="page7">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <div class="button-bar">
+                <button id="dresses-button2" style="color:#CC0000;" class="button button-stable" ng-click="showCost()">Cost</button>
+                <button id="dresses-button3" style="color:#CC0000;" class="button button-stable" ng-click="showSize()">Size</button>
+                <button id="dresses-button4" style="color:#CC0000;" class="button button-stable" ng-click="showBrand()">Brand</button>
+            </div>
+        </form>
+        <div class="list card">
+            <div class="item item-divider">Denim &amp; Supply Ralph Lauren Floral</div>
+            <div class="item item-body">
+                <div style="text-align:center;">
+                    <img src="img/ueUNgdDsTWygnu2dmVrM_3386482_fpx.tif" width="100%" height="auto">
+                </div>
+                <form class="list">
+                    <div id="dresses-markdown1" style="color:#000000;">
+                        <p>Price: $125.00</p>
+                    </div>
+                    <label class="item item-select" name="Color1">
+                        <span class="input-label">Color</span>
+                        <select>
+                            <option>Red</option>
+                            <option>Blue</option>
+                            <option>Yellow</option>
+                        </select>
+                    </label>
+                    <label class="item item-select" name="Size">
+                        <span class="input-label">Size</span>
+                        <select>
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </label>
+                    <label class="item item-select" name="quantity1">
+                        <span class="input-label">Quantity</span>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </label>
+                    <div class="button-bar">
+                        <button id="dresses-button5" class="button button-stable  button-block">Add to bag</button>
+                        <button id="dresses-button7" class="button button-assertive  button-block">Checkout</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item item-divider">Paneled A-line Maxidress</div>
+            <div class="item item-body">
+                <div style="text-align:center;">
+                    <img src="img/8MYj8HnTQO0DWNh9yaRA_3362773_fpx.tif" width="100%" height="auto">
+                </div>
+                <form class="list">
+                    <div id="dresses-markdown2" style="color:#000000;">
+                        <p>Price: $185.00</p>
+                    </div>
+                    <label class="item item-select" name="Color2">
+                        <span class="input-label">Color</span>
+                        <select>
+                            <option>White</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </label>
+                    <label class="item item-select" name="Size1">
+                        <span class="input-label">Size</span>
+                        <select>
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </label>
+                    <label class="item item-select" name="quantity1">
+                        <span class="input-label">Quantity</span>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </label>
+                    <div class="button-bar">
+                        <a ui-sref="tabsController.bag" id="dresses-button8" class="button button-stable  button-block">Add to bag</a>
+                        <a ui-sref="tabsController.checkout" id="dresses-button9" class="button button-assertive  button-block">Checkout</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <form class="list"></form>
+                <script id="popup-template.html" type="text/ng-template">
+          <input ng-model="data.wifi" type="text" placeholder="Password">
+        </script>
+    </ion-content>
+</ion-view>

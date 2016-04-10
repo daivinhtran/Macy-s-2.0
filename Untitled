@@ -1,0 +1,5 @@
+<ion-radio ng-model="choice" ng-value="'low'">< $50</ion-radio>
+<ion-radio ng-model="choice" ng-value="'mid'">$50 - $100</ion-radio>
+<ion-radio ng-model="choice" ng-value="'high'">$101 - $250</ion-radio>
+<ion-radio ng-model="choice" ng-value="'higher'">$251 - $500</ion-radio>
+<ion-radio ng-model="choice" ng-value="'highest'">>$501</ion-radio>
